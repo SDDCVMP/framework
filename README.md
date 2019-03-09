@@ -154,4 +154,4 @@ scenarios.conf:
 
 #### Output Files
 The framework generates the following file:
-- *scenarios_score: contains F1, F2, F3 values
+- *resutls: contains F1, F2, F3 values
