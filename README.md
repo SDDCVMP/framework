@@ -1,5 +1,7 @@
 # Dynamic Virtual Machine Placement Framework
 
+DEPRECATED
+
 This project contains the source code and results of the following research:
 
 #### *"Two-Phase Virtual Machine Placement Algorithms for Cloud Computing. An experimental Evaluation Under Uncertainty"*.
