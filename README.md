@@ -1,42 +1,6 @@
-# Dynamic Virtual Machine Placement Framework
-
-DEPRECATED
+# [DEPRECATED] Dynamic Virtual Machine Placement Framework
 
 This project contains the source code and results of the following research:
-
-#### *"Two-Phase Virtual Machine Placement Algorithms for Cloud Computing. An experimental Evaluation Under Uncertainty"*.
-
-*Conferencia Latinoamericana de Informática (CLEI), 2017* \
-**Authors:** N. Chamas and F. López-Pires and B. Barán \
-**Release:** [CLEI-2017](https://github.com/DynamicVMP/dynamic-vmp-framework/releases/tag/CLEI-2017)
-
-##
-
-#### *"Virtual Machine Placement for Elastic Infrastructures in Overbooked Cloud Computing Datacenters Under Uncertainty"*
-                                              
- *Future Generation Computer Systems, 2017* \
- **Authors**: F. López-Pires and B. Barán and A. Amarilla and L. Benítez and S. Zalimben \
-**Release:**  [FGS-2017](https://github.com/DynamicVMP/dynamic-vmp-framework/releases/tag/FGCS-2017)
-
-###### Abstract
-
-Infrastructure as a Service (IaaS) providers must support requests for virtual resources in highly dynamic cloud computing envi-ronments.  Due to the randomness of customer requests, Virtual Machine Placement (VMP) problems should be formulated underuncertainty.  This work presents a novel two-phase optimization scheme for the resolution of VMP problems for cloud computingunder uncertainty of several relevant parameters, combining advantages of online and offline formulations in dynamic environmentsconsidering service elasticity and overbooking of physical resources. In this context, a formulation of a VMP problem is presented,considering the optimization of the following four objective functions: (1) power consumption, (2) economical revenue, (3) resourceutilization and (4) placement reconfiguration time. The proposed two-phase optimization scheme includes novel methods to decidewhen to trigger a placement reconfiguration through migration of virtual machines (VMs) between physical machines (PMs) andwhat to do with VMs requested during the reconfiguration period.  An experimental evaluation against state-of-the-art alternativeapproaches for VMP problems was performed considering 400 scenarios.  Experimental results indicate that the proposed schemeoutperforms other evaluated alternatives, improving the quality of solutions in a scenario-based uncertainty model considering the following evaluation criteria among solutions: (1) average, (2) minimum and (3) maximum objective function cost.
-
-##
-
-#### *"Evaluating a Two-Phase Virtual Machine PlacementOptimization Scheme for Cloud Computing Datacenters"*
-
-*Metaheuristics International Conference, 2017* \
- **Authors**: F. López-Pires and B. Barán and A. Amarilla and L. Benítez and S. Zalimben \
- **Release:** [MIC-2017](https://github.com/DynamicVMP/dynamic-vmp-framework/releases/tag/1.0)
-
-###### Abstract 
-
-Infrastructure as a Service (IaaS) providers must support requests for virtual resources in complexdynamic cloud computing environments, taking into account service elasticity and overbooking ofphysical resources. Due to the randomness of customer requests, Virtual Machine Placement (VMP)problems should be formulated under uncertainty.  This work proposes an experimental evaluationof a two-phase optimization scheme for VMP problems, studying different (i) online heuristics, (ii)overbooking protection factors and (iii) objective function scalarization methods.  The proposed ex-perimental evaluation considers an uncertain VMP formulation for the optimization of the followingthree objective functions: (i) power consumption, (ii) economical revenue, and (iii) resource utiliza-tion.  Experiments were performed considering 96 different scenarios, representing complex cloudcomputing environments.  Experimental results shows that Best-Fit and Best-Fit Decreasing heuris-tics are recommended in the incremental VMP (iVMP) phase working with the considered MemeticAlgorithm in the VMP reconfiguration (VMPr) phase, adjusting protection factors to 0.00 and 0.75in  low  and  high  CPU  load  scenarios  respectively,  while  scalarazing  the  proposed  three  objectivefunctions considering an Euclidean distance to the origin.
-
-
-##  
-
 
 #### *"Towards Elastic Virtual Machine Placement in Overbooked OpenStack Clouds under Uncertainty"*
 
